@@ -1,0 +1,180 @@
+* {
+    border-radius: 5px;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@keyframes gr {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.center {
+    display: inline-block;
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    line-height: 40px;
+    background: linear-gradient(-45deg, white, lightblue, greenyellow, orange);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    animation-name: gr;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transition: all 0.3s;
+}
+
+.center .title {
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.search, .AddInput {
+    outline: none;
+    background-color: white;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    border-bottom-right-radius: unset;
+    border-top-right-radius: unset;
+}
+
+.row1 {
+    height: 40px;
+    width: 90.7%;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.AddInput {
+    width: 80%;
+    float: left;
+    margin-top: unset;
+}
+
+.AddBtn {
+    width: 19.17%;
+    border: none;
+    height: 42px;
+    float: right;
+    border-bottom-left-radius: unset;
+    border-top-left-radius: unset;
+}
+
+
+.row {
+    width: 90.7%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row .completed {
+    background-color: white;
+    width: 49.5%;
+    float: left;
+}
+
+.row .All {
+    background-color: white;
+    width: 49.5%;
+    float: right;
+}
+
+.rw {
+    background-color: black;
+    color: white;
+    width: 90.9%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.rw:nth-child(2n) {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 20px 0 white;
+}
+
+.rw input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
